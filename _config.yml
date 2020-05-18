@@ -13,9 +13,9 @@ author: hease02
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://github.com/hease02"
 
 # --- Logo --- #
@@ -39,8 +39,8 @@ round-avatar: true
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "hease02@gmail.com"
-  facebook: deanattali
-  github: "https://github.com/hease02"
+  facebook:
+  github: hease02
   twitter: 
   rss: 
 #  reddit: yourname
@@ -62,8 +62,8 @@ social-network-links:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: false
-  facebook: false
+  twitter: true
+  facebook: true
   linkedin: true
 
 # How to display the link to your website in the footer
