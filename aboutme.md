@@ -7,4 +7,4 @@ subtitle:
 
 ### Contact me
 
-[hease02@gmail.com]
+ [hease02@gmail.com](mailto:email@domain.com)
