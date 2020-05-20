@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flake it till you make it
+title: 참고_!
 subtitle: Excerpt from Soulshaping by Jeff Brown
 cover-img: /assets/img/path.jpg
 tags: [books, test]

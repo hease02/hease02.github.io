@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 알고리즘_Programmers(5)
+title: 알고리즘_Programmers (5)
 comments: true
+tag: [Algorithm, Programmers, python, Hash]
 ---
 
 

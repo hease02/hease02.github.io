@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 알고리즘_Programmers(7)
+title: 알고리즘_Programmers (7)
 comments: true
+tag: [Algorithm, Programmers, python, 완전 탐색]
 ---
 
 

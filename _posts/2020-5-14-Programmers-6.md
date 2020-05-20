@@ -2,6 +2,7 @@
 layout: post
 title: 알고리즘_Programmers (6)
 comments: true
+tag: [Algorithm, Programmers, python, 스택, 큐]
 ---
 
 

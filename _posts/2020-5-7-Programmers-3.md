@@ -2,6 +2,7 @@
 layout: post
 title: 알고리즘_Programmers (3)
 comments: true
+tag: [Algorithm, Programmers, python, 정렬]
 ---
 
 ## 코딩테스트 고득점 Kit
