@@ -9,11 +9,7 @@ tag: [Algorithm, Programmers, python, heap]
 
 ## 코딩테스트 고득점 Kit
 
-​    
-
-#### 힙  - 더 맵게    
-
-​    
+#### 힙  - 더 맵게        
 
 ### *Code*
 
@@ -46,7 +42,7 @@ def solution(scoville, K):
     return answer
 ```
 
- heaps 모듈을 이용해서 풀면된다.     
+ heaps 모듈을 이용해서 풀면된다.
 
 ---
 
