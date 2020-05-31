@@ -2,7 +2,7 @@
 layout: post
 title: Terminal 이쁘게 만들기
 comments: true
-tag: [Terminal, iterm2]
+tag: [terminal, iterm2, zsh]
 ---
 
 
