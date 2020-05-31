@@ -50,11 +50,11 @@ comments: true
 
 4. agnoster테마를 적용하면 글씨가 깨져서 폰트 적용 
 
-   폰트를 다운받아서 적용해야함 --> d2Coding 폰트
+   폰트를 다운받아서 적용해야함 ----> d2Coding 폰트
 
-   Profile - text에서 change font를 선택하면 된다고 하지만 내 iterms2에는 없었음. 그래서 다운 받은 폰트를 응용프로그램 - 서체관리자에 업로드시켜서 폰트를 바꿔줬음 
+   profile - text에서 change font를 선택하면 된다고 하지만 내 iterms2에는 없었음. 그래서 다운 받은 폰트를 응용프로그램 - 서체관리자에 업로드시켜서 폰트를 바꿔줬음 
 
-5. @ MacBook-pro 없애기
+5. MacBook-pro 없애기
 
    ~~~shell
    prompt_context() {
@@ -123,7 +123,7 @@ comments: true
 
 ### 완성작
 
-![terminal](./assets/img/terminal.png)
+![terminal](../assets/img/terminal.png)
 
 ---
 
