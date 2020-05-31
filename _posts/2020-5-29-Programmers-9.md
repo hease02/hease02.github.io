@@ -3,7 +3,6 @@ layout: post
 title: 알고리즘_Programmers (9)
 comments: true
 tag: [Algorithm, Programmers, python]
-
 ---
 
 
