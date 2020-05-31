@@ -126,5 +126,4 @@ tag: [terminal, iterm2, zsh]
 
 ---
 
-![terminal](/Users/jh/Github/hease02.github.io/assets/img/terminal.png)
 
