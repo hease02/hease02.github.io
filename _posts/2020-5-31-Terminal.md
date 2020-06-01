@@ -36,7 +36,7 @@ comments: true
 
    oh-my-zsh 설치 (zsh의 확장 버전)
 
-   ~~~shell
+   ~~~bash
    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
    ~~~
 
@@ -46,13 +46,33 @@ comments: true
 
    `ZSH_THEME=”robyrussell”`  ---->` ZSH_THEME=”agnoster” `로 바꾸기
 
-   `soruce ~/.zshrc`하여 적용하기 
+   `soruce ~/.zshrc `하여 적용하기 
 
    agnoster테마를 적용하면 글씨가 깨져서 폰트 적용 
 
-   폰트를 다운받아서 적용해야함 
    
-   프로필 -> 텍스트에서 change font를 선택하면 된다고 하지만 내 iterms2에는 없어 다운 받은 폰트를 응용프로그램 -> 서체관리자에 업로드시켜서 폰트를 바꿔줬음 
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   폰트를 다운받아서 적용해야함 
+
+   profile -> text 에서 change font를 선택하면 된다고 하지만 내 iterms2에는 없어 다운 받은 폰트를 응용프로그램 -> 서체관리자에 업로드시켜서 폰트를 바꿔줬음 
 
 5. MacBook-pro 없애기
 
