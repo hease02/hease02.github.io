@@ -48,30 +48,12 @@ comments: true
 
    `soruce ~/.zshrc `하여 적용하기 
 
-   agnoster테마를 적용하면 글씨가 깨져서 폰트 적용 
-
+   agnoster테마를 적용하면 글씨가 깨져서 폰트 적용   
    
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
-   
-
    폰트를 다운받아서 적용해야함 
-
+   {% raw %}
+   
+   {% endraw %}
    profile -> text 에서 change font를 선택하면 된다고 하지만 내 iterms2에는 없어 다운 받은 폰트를 응용프로그램 -> 서체관리자에 업로드시켜서 폰트를 바꿔줬음 
 
 5. MacBook-pro 없애기
