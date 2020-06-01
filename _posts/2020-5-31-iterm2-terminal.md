@@ -44,15 +44,14 @@ comments: true
    
 
 3. git 상태를 알 수 있는 agnoster 테마를 적용하기
-
+   {% raw %}
    `vi ~/.zshrc` 하여
 
    `ZSH_THEME=”robyrussell”`  ---->` ZSH_THEME=”agnoster” `로 바꾸기
 
    `soruce ~/.zshrc `하여 적용하기 
-
-    agnoster테마를 적용하면 글씨가 깨져서 폰트를 다운 받아서 적용해야함
-    {{% raw %} {% endraw %}}    
+   {% endraw %}
+    agnoster테마를 적용하면 글씨가 깨져서 폰트를 다운 받아서 적용해야함  
     profile -> text 에서 change font를 선택하면 된다고 하지만 내 iterms2에는 없어 다운 받은 폰트를 응용프로그램 -> 서체관리자에 업로드시켜서 폰트를 바꿔줬음 
 
    
