@@ -8,6 +8,15 @@ comments: true
 
 4. MacBook-pro 없애기
 
+```basb
+{% raw %}
+prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
+  fi
+}
+{% endraw %}
+```
 
 ~/.zshrc에서 위의 코드를 맨 마지막에 넣으면 사용자 이름만 나오게 할 수 있음. 
 
@@ -21,7 +30,7 @@ vi ~/.oh-my-zsh/themes/agnoster.zsh-theme
 
 에서 
 
-
+```bash
 build_prompt() {
   RETVAL=$?
   prompt_status
@@ -34,10 +43,11 @@ build_prompt() {
   prompt_newline 
   prompt_end
 }
-
+```
 
 build_prompt에서 prompt_newline을 prompt_end 위에 적용시킨다. 꼭 위에 적어야 한다고 한다. 
 
+```bash
 {% raw %}
 prompt_newline() {
   if [[ -n $CURRENT_BG ]]; then
@@ -51,7 +61,7 @@ prompt_newline() {
   CURRENT_BG=''
 }
 {% endraw %}
-
+```
 위의 코드를 아래에 추가해준다. 
 
 
