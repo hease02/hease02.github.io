@@ -4,23 +4,9 @@ title: Terminal 이쁘게 만들기 (2)
 comments: true
 ---
 
-
-
 ## Mac에서 Terminal 이쁘게 만들기
 
-
-
-### iterm2 + oh-my-zsh  이용하기
-
-
 4. MacBook-pro 없애기
-
-
-prompt_context() {
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
-  fi
-}
 
 
 ~/.zshrc에서 위의 코드를 맨 마지막에 넣으면 사용자 이름만 나오게 할 수 있음. 
