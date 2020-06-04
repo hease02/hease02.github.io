@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Terminal 이쁘게 만들기
+title: Terminal 이쁘게 만들기 (2)
 comments: true
-
 ---
 
 
