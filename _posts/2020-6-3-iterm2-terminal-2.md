@@ -15,13 +15,13 @@ comments: true
 
 4. MacBook-pro 없애기
 
-~~~shell
+
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
     prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
-~~~
+
 
 ~/.zshrc에서 위의 코드를 맨 마지막에 넣으면 사용자 이름만 나오게 할 수 있음. 
 
