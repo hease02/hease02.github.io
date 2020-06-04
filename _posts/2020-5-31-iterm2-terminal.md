@@ -43,6 +43,7 @@ comments: true
    
 
 3. git 상태를 알 수 있는 agnoster 테마를 적용하기
+
    `vi ~/.zshrc` 하여 `ZSH_THEME=”robyrussell”`  ---->` ZSH_THEME=”agnoster” `로 바꾸기
    
    `soruce ~/.zshrc `하여 적용하기 
