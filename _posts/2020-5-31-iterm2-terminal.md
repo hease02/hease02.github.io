@@ -127,7 +127,7 @@ brew install zsh-syntax-highlighting
 echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ~~~
 
-
+      
 
 ### 완성작
 
