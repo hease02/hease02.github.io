@@ -15,13 +15,13 @@ comments: true
 
 5. NewLine 적용
 
-~~~shell
+
 vi ~/.oh-my-zsh/themes/agnoster.zsh-theme
-~~~
+
 
 에서 
 
-~~~shell
+
 build_prompt() {
   RETVAL=$?
   prompt_status
@@ -34,11 +34,11 @@ build_prompt() {
   prompt_newline 
   prompt_end
 }
-~~~
+
 
 build_prompt에서 prompt_newline을 prompt_end 위에 적용시킨다. 꼭 위에 적어야 한다고 한다. 
 
-~~~shell
+{% raw %}
 prompt_newline() {
   if [[ -n $CURRENT_BG ]]; then
     echo -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR
@@ -50,7 +50,7 @@ prompt_newline() {
   echo -n "%{%f%}"
   CURRENT_BG=''
 }
-~~~
+{% endraw %}
 
 위의 코드를 아래에 추가해준다. 
 
