@@ -21,7 +21,7 @@ tag: [Markdown]
 
  포스트의 13번 째 줄의 tag F에서 **Liquid tag** 에러가 났다는 경고문이 떴다. 
 
-<img src="/Users/jh/Github/hease02.github.io/assets/img/markdown_error_2.png" alt="markdown_error2" style="zoom:50%;" /> 
+<img src="../assets/img/markdown_error_2.png" alt="markdown_error2" style="zoom:50%;" /> 
 
 그런데 막상 편집기로 보면 13번째 줄에 F tag를 쓰지 않아서 오류를 찾기 힘들었다. 
 
