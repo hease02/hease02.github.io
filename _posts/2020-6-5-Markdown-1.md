@@ -31,7 +31,7 @@ tag: [Markdown]
 
   Jekyll은 Ruby 언어 기반이라 템플릿을 표현하기 위한 언어로 Liquid tag라는 것을 사용한다고 한다. 그래서 포스트에 {% raw %} `{%` 와  `%}` {% endraw %}가 포함되어 있으면 jekyll이 텍스트로 처리하지 못하고 템플릿으로 읽어와서 생기는 오류이다.
 
- 그러므로 텍스트로 인식하도록 만들어주면 된다. tag 오류가 나는 곳을 {% raw %}`{% raw %}` 와 `{% endraw %}`{% endraw %}로 감싸주면 해결가능하다. 
+ 그러므로 텍스트로 인식하도록 만들어주면 된다. tag 오류가 나는 곳을 raw와 endraw Liquid tage로 감싸주면 해결가능하다. 
 
 <img src="../assets/img/markdown_error4.png" alt="markdown_error4" style="zoom:60%;" />
 
