@@ -10,7 +10,7 @@ tag: [Markdown]
 # Markdown 에러 처리
 
 
-    
+​    
 ### Liqud Tag 오류 해결하기
 
 
@@ -21,11 +21,11 @@ tag: [Markdown]
 
  포스트의 13번 째 줄의 tag F에서 **Liquid tag** 에러가 났다는 경고문이 떴다. 
 
-<img src="../assets/img/markdown_error_2.png" alt="markdown_error2" style="zoom:50%;" /> 
+![markdown_error2](../assets/img/markdown_error_2.png)
 
 그런데 막상 편집기로 보면 13번째 줄에 F tag를 쓰지 않아서 오류를 찾기 힘들었다. 
 
-<img src="../assets/img/markdown_error3.png" alt="markdown_error3" style="zoom:60%;" />
+![markdown_error3](../assets/img/markdown_error3.png)
 
  그래서 포스트에서 F를 쓴 곳이 있나 살펴보자 좀 더 밑에서 {% raw %}`{%` 와`%}`{% endraw %}로 감싸진 F를 찾을 수 있었다. 
 
@@ -33,5 +33,5 @@ tag: [Markdown]
 
  그러므로 텍스트로 인식하도록 만들어주면 된다. tag 오류가 나는 곳을 raw와 endraw Liquid tage로 감싸주면 해결가능하다. 
 
-<img src="../assets/img/markdown_error4.png" alt="markdown_error4" style="zoom:60%;" />
+![markdown_error3](../assets/img/markdown_error4.png)
 
